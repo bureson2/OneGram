@@ -1,0 +1,16 @@
+# YYYY-MM-DD With leading zeroes
+scalar Date
+# HH:MM:SS:sss (s = millisecond)
+scalar LocalTime
+
+type Post {
+    id : String!
+    description : String!
+    tags : [Tag!]!
+    likes : [Like!]!
+    comments : [Comment!]!
+    authorId : Int!
+    createdAtDate : Date!
+    createdAtTime: LocalTime!
+    imagePaths: [String!]!
+}

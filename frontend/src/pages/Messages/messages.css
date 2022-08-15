@@ -1,0 +1,14 @@
+.messages-h2{
+    margin-left: 25px;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+/*TODO opravit dolisne pozadi zprav, uz jednou fungovalo, pak nahodne prestalo*/
+.single-message-box:nth-child(even) {
+    background-color: #f3f2f2;
+}

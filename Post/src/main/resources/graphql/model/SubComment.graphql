@@ -1,0 +1,8 @@
+type SubComment {
+    id: String!
+    content : String!
+    authorId : Int!
+    likes: [Like!]
+    createdAtDate : Date!
+    createdAtTime: LocalTime!
+}
